@@ -5,7 +5,7 @@ from Cryptodome.Util.Padding import unpad #
 from base64 import b64decode
 from Cryptodome.Util.Padding import pad # type: ignore
 import base64
-from config import Config
+from config import .Config
 import send, db, datetime, key, server
 import asyncio
 import aiohttp
